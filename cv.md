@@ -34,3 +34,28 @@ I have 1 completed higher education, and one unfinished 3 course of BelGut Unive
 
 Also courses in rare specialties for our star
 ```
+
+### My experience
+
+- My work allows me to reach my goal
+
+  and should always bring me pleasure and well-being
+
+### ProfessionalВ Skills
+
+- HTML, CSS, JS
+- Angular
+- Typescript
+- Firebase
+- Git
+- SPA
+- English (A2)
+
+### HoBBies
+
+- Muay Thay
+- chees
+- run
+- valeyball
+- socer
+- family
