@@ -14,17 +14,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.header {
+.font-class {
   font-family: "Rubik 80s Fade", cursive;
+  font-size: 1.5em;
+}
+.font-class-user {
+  font-family: "Rubik 80s Fade", cursive;
+  font-family: "Unbounded", cursive;
   font-size: 1em;
 }
+
 .header-conteiner {
   display: flex;
   flex-wrap: wrap;
 }
-.image {
+.image img {
   width: 15%;
-  height: auto;
+  border: solid grey;
+  border-radius: 50%;
+  box-shadow: 15px 2px 50px 5px;
 }
 .container {
   max-width: 1440px;
@@ -49,6 +57,7 @@ body {
   transition: color 0.5s;
   border: 1px solid rgb(107, 100, 100);
   border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px;
 }
 .nav-link:active {
   color: rgba(214, 219, 219, 0.808);
@@ -56,6 +65,12 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgba(202, 221, 221, 0.5);
+}
+
+.footer-info > a > img {
+  width: 50px;
+  height: auto;
+  background: rgb(203, 206, 182);
 }
 
 @media (max-width: 768px) {
