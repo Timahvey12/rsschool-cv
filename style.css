@@ -9,6 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  display: flex;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,14 +40,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 85%;
+  width: 800px;
 }
 .info-block {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-
+  font-size: 15px;
   width: 50%;
 }
 .image-block img {
@@ -130,10 +131,11 @@ pre {
   bottom: 5px;
   font-size: larger;
   color: rgb(241, 16, 110);
+  background-color: rgba(1, 1, 231, 0.459);
 }
 
 @media (max-width: 768px) {
-  .section {
-    width: 100%;
+  .image-block {
+    width: 50%;
   }
 }
