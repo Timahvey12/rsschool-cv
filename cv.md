@@ -14,7 +14,7 @@
 2. **_[Instagramm =>](https://www.instagram.com/timofeyplaksitskiy/?hl=ru)_**
 3. **_[GitHub =>](https://github.com/timahvey12)_**
 
-### My education / моё образование
+### My education
 
 1.  Francisk Skorina Gomel State University
 
