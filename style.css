@@ -4,7 +4,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Rubik 80s Fade", cursive;
 }
 html {
   scroll-behavior: smooth;
@@ -15,7 +14,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-a .container {
+.header {
+  font-family: "Rubik 80s Fade", cursive;
+  font-size: 1em;
+}
+.container {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -27,6 +30,8 @@ a .container {
 .nav-link {
   padding: 0 20px;
   line-height: 30px;
+  border: 1px solid rgb(175, 173, 173);
+  border-radius: 5px;
   text-decoration: none;
   color: black;
   font-size: larger;
@@ -34,11 +39,13 @@ a .container {
 .nav-link:hover {
   color: blue;
   transition: color 0.5s;
+  border: 1px solid rgb(107, 100, 100);
+  border-radius: 5px;
 }
 .nav-link:active {
-  color: rgb(81, 138, 138);
+  color: rgba(214, 219, 219, 0.808);
   transition: color 0.9s;
   border: 1px solid black;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: rgba(202, 221, 221, 0.5);
 }

@@ -15,43 +15,73 @@
     <title>CV</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Plaksitski Tsimafei</h1>
-      <div class="conteiner"></div>
-      <aside>
-        <nav class="nav">
-          <ul>
-            <li class="nav-item">
-              <a href="#code" class="nav-link">my Code</a>
-            </li>
-            <li class="nav-item">
-              <a href="#Contacts" class="nav-link">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a href="#education" class="nav-link">My education</a>
-            </li>
-            <li class="nav-item">
-              <a href="#experience" class="nav-link">My experience</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link">Professional Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#hobbies" class="nav-link">HoBBies</a>
-            </li>
-          </ul>
-        </nav>
-      </aside>
+      <div class="header-conteiner">
+        <aside>
+          <nav class="nav">
+            <ul>
+              <li class="nav-item">
+                <a href="#Contacts" class="nav-link">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#education" class="nav-link">My education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#experience" class="nav-link">My experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Professional Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#code" class="nav-link">My Code</a>
+              </li>
+              <li class="nav-item">
+                <a href="#hobbies" class="nav-link">HoBBies</a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
     </header>
-    <div class="conteiner"></div>
-    <main>
-      <h2>More information</h2>
-      <section class="section" id="code"></section>
-      <section class="section" id="contacts"></section>
-      <section class="section" id="education"></section>
-      <section class="section" id="experiece"></section>
-      <section class="section" id="skills"></section>
-      <section class="section" id="hobbies"></section>
+
+    <main class="main">
+      <h2>Actual information</h2>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+      </section>
+      <section class="section" id="experiece">
+        <h2 class="section-title">Experience</h2>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+      </section>
+      <section class="section" id="hobbies">
+        <h2 class="section-title">Hobbies</h2>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre>
+          <code>
+            const dog = {
+               name: 'Bobik',
+               bark: function () {
+               console.log(`${this.name} barks`) 
+              } 
+            };
+
+             const person = { 
+              name: 'John',
+              age: 20 
+            }; 
+            dog.bark.apply(person);
+          </code>
+        </pre>
+      </section>
     </main>
     <footer></footer>
   </body>
