@@ -8,6 +8,11 @@
 html {
   scroll-behavior: smooth;
 }
+h1 {
+  align-self: center;
+  text-shadow: 1px 5px 15px;
+  font-size: 3em;
+}
 body {
   display: flex;
   min-height: 100vh;
@@ -70,6 +75,10 @@ body {
   flex-direction: row;
 }
 
+.nav-item {
+  list-style-type: none;
+  padding-top: 10px;
+}
 .nav-link {
   padding: 0 20px;
   line-height: 30px;
