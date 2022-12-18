@@ -4,7 +4,7 @@
 
 ## Age : 36
 
-## Sity : Gomel
+## Citi : Gomel
 
 ---
 

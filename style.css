@@ -28,14 +28,29 @@ body {
   font-family: "Rubik 80s Fade", cursive;
   font-family: "Unbounded", cursive;
   font-size: 1em;
+  text-shadow: 1px 10px 15px;
 }
 
 .header-conteiner {
   display: flex;
   flex-wrap: wrap;
 }
-.image img {
-  width: 25%;
+.image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+}
+.info-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 50%;
+}
+.image-block img {
+  width: 50%;
   border: solid grey;
   border-radius: 5%;
   box-shadow: 15px 2px 50px 5px;
@@ -49,6 +64,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+.wrapper-face {
+  display: flex;
+  flex-direction: row;
+}
+
 .nav-link {
   padding: 0 20px;
   line-height: 30px;
