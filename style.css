@@ -1,10 +1,10 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 html {
   scroll-behavior: smooth;
 }
@@ -17,6 +17,14 @@ body {
 .header {
   font-family: "Rubik 80s Fade", cursive;
   font-size: 1em;
+}
+.header-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.image {
+  width: 15%;
+  height: auto;
 }
 .container {
   max-width: 1440px;
@@ -48,4 +56,10 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgba(202, 221, 221, 0.5);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
 }
