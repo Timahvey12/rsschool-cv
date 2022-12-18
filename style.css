@@ -15,9 +15,8 @@ h1 {
 }
 body {
   display: flex;
-  min-height: 100vh;
-  display: flex;
   flex-direction: column;
+  min-height: 100vh;
   background: rgba(177, 164, 164, 0.452);
 }
 .wrapper {
@@ -76,14 +75,16 @@ body {
 }
 
 .nav-item {
+  
   padding: 1px;
   list-style-type: none;
   padding-top: 10px;
+  font-style: ;
 }
 .nav-link {
   padding: 0 20px;
   line-height: 30px;
-  border: 1px solid rgb(175, 173, 173);
+  border: 1px solid rgba(175, 173, 173, 0.219);
   border-radius: 5px;
   text-decoration: none;
   color: black;
